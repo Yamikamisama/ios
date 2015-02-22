@@ -61,6 +61,15 @@
                                     <rect key="frame" x="16" y="289" width="334" height="30"/>
                                 </variation>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21L-U6-6GT">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="156" width="226" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="INp-rt-nfi"/>
                                 <exclude reference="dUi-6I-tLM"/>
                                 <exclude reference="qD1-NA-7It"/>
+                                <exclude reference="21L-U6-6GT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="INp-rt-nfi"/>
                                 <include reference="dUi-6I-tLM"/>
                                 <include reference="qD1-NA-7It"/>
+                                <include reference="21L-U6-6GT"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,11 +98,12 @@
                         <outlet property="enterNameTextField" destination="waA-p2-aiq" id="Un5-LG-Lb3"/>
                         <outlet property="mailButton" destination="INp-rt-nfi" id="SfQ-N2-jfS"/>
                         <outlet property="messageLabel" destination="dUi-6I-tLM" id="kdG-nU-vfq"/>
+                        <outlet property="nameLabel" destination="21L-U6-6GT" id="cVA-tr-p0J"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1341" y="162"/>
+            <point key="canvasLocation" x="1206" y="162"/>
         </scene>
         <!--Barcelona-->
         <scene sceneID="6fS-kn-V3h">
@@ -152,7 +164,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KLN-3F-XyZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-321" y="162"/>
+            <point key="canvasLocation" x="-279" y="162"/>
         </scene>
     </scenes>
     <resources>
