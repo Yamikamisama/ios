@@ -83,9 +83,9 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="MessageLabel" destination="dUi-6I-tLM" id="F25-Ru-TwR"/>
                         <outlet property="enterMessageTextField" destination="qD1-NA-7It" id="SVW-mo-Sv8"/>
                         <outlet property="enterNameTextField" destination="waA-p2-aiq" id="Un5-LG-Lb3"/>
+                        <outlet property="messageLabel" destination="dUi-6I-tLM" id="kdG-nU-vfq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
