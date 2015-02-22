@@ -52,7 +52,13 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="c51-WL-QYb"/>
+                    <navigationItem key="navigationItem" id="c51-WL-QYb">
+                        <barButtonItem key="rightBarButtonItem" title="View Message" id="xKs-P3-oQe">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="mXq-36-H1T"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PuC-2E-Y3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
