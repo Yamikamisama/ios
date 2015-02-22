@@ -14,6 +14,7 @@
 		F4186E561A9A712D0043E5D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4186E541A9A712D0043E5D8 /* LaunchScreen.xib */; };
 		F4186E621A9A712D0043E5D8 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4186E611A9A712D0043E5D8 /* PostcardTests.swift */; };
 		F4186E6C1A9A7AAE0043E5D8 /* SagradaFamilia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F4186E6B1A9A7AAE0043E5D8 /* SagradaFamilia.jpeg */; };
+		F4186E6E1A9A83280043E5D8 /* AlbertEinsteinStamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4186E6D1A9A83280043E5D8 /* AlbertEinsteinStamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		F4186E601A9A712D0043E5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4186E611A9A712D0043E5D8 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
 		F4186E6B1A9A7AAE0043E5D8 /* SagradaFamilia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SagradaFamilia.jpeg; sourceTree = "<group>"; };
+		F4186E6D1A9A83280043E5D8 /* AlbertEinsteinStamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlbertEinsteinStamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 		F4186E491A9A712D0043E5D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F4186E6D1A9A83280043E5D8 /* AlbertEinsteinStamp.jpg */,
 				F4186E6B1A9A7AAE0043E5D8 /* SagradaFamilia.jpeg */,
 				F4186E4A1A9A712D0043E5D8 /* Info.plist */,
 			);
@@ -197,6 +200,7 @@
 			files = (
 				F4186E511A9A712D0043E5D8 /* Main.storyboard in Resources */,
 				F4186E6C1A9A7AAE0043E5D8 /* SagradaFamilia.jpeg in Resources */,
+				F4186E6E1A9A83280043E5D8 /* AlbertEinsteinStamp.jpg in Resources */,
 				F4186E561A9A712D0043E5D8 /* LaunchScreen.xib in Resources */,
 				F4186E531A9A712D0043E5D8 /* Images.xcassets in Resources */,
 			);
