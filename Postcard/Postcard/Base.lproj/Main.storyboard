@@ -22,7 +22,7 @@
             </objects>
             <point key="canvasLocation" x="1272" y="162"/>
         </scene>
-        <!--View Controller-->
+        <!--Barcelona-->
         <scene sceneID="6fS-kn-V3h">
             <objects>
                 <viewController id="BWi-io-jex" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="IaC-9m-EFY">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                                    <rect key="frame" x="0.0" y="64" width="400" height="610"/>
                                 </variation>
                             </imageView>
                         </subviews>
@@ -52,8 +52,8 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="c51-WL-QYb">
-                        <barButtonItem key="rightBarButtonItem" title="View Message" id="xKs-P3-oQe">
+                    <navigationItem key="navigationItem" title="Barcelona" id="c51-WL-QYb">
+                        <barButtonItem key="rightBarButtonItem" title="Message" id="xKs-P3-oQe">
                             <connections>
                                 <segue destination="BYZ-38-t0r" kind="show" id="mXq-36-H1T"/>
                             </connections>
@@ -62,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PuC-2E-Y3I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="597" y="162"/>
+            <point key="canvasLocation" x="468" y="162"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZFH-Bk-ux5">
