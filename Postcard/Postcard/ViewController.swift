@@ -31,11 +31,12 @@ class ViewController: UIViewController {
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextField.text
-        messageLabel.textColor = UIColor.redColor()
+        messageLabel.textColor = UIColor.blueColor()
+
         
         nameLabel.hidden = false
         nameLabel.text = enterNameTextField.text
-        nameLabel.textColor = UIColor.blueColor()
+        nameLabel.textColor = UIColor.darkGrayColor()
         
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
